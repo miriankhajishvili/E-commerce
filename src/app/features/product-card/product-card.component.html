@@ -1,0 +1,22 @@
+<div  *ngIf="product" class="card" [routerLink]="['/products', product.id]"  >
+    <div [ngStyle]="{
+        'background-image': 'url('+ product.image + ')'
+    }" class="card-image">
+
+    </div>
+
+          
+      <div class="p-2">
+        <h6> {{product.name}} </h6>
+      </div>
+      <div  class="d=flex justify-content-between ">
+        <div>
+           {{product.price | currency: 'USD': true}}
+        </div>
+        <div>
+            <button  *appAuthAccess type="button" class="btn btn-outline-primary me-2" (click)="addToCart($event)" >Add cart</button>
+        </div>
+      </div>
+      
+      
+</div>
