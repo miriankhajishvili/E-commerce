@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost:8080/'
+  apiUrl: 'web-production-dcf6.up.railway.app'
   // apiUrl: 'https://seal-app-l3d7u.ondigitalocean.app/'
 };

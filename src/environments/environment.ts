@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8080/'
+  apiUrl: 'web-production-dcf6.up.railway.app'
 };
 
 /*
